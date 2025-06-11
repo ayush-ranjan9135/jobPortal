@@ -12,10 +12,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@clerk/express": "^1.6.0",
     "@sentry/cli": "^2.46.0",
     "@sentry/node": "^9.27.0",
     "@sentry/profiling-node": "^9.27.0",
     "@sentry/vite-plugin": "^3.5.0",
+    "axios": "^1.9.0",
     "bcrypt": "^6.0.0",
     "cloudinary": "^2.6.1",
     "cors": "^2.8.5",

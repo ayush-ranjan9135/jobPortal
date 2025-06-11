@@ -34,7 +34,7 @@ switch(type){
             resume:''
         }
         await User.create(userData)
-        res.JSON({})
+        res.json({})
         break;
     }
 
@@ -45,7 +45,7 @@ switch(type){
             image: data.image_url,
         }
         await User.findByIdAndUpdate(data.id,userData)
-        res.JSON({})
+        res.json({})
         break;
     }
     case 'user.deleted':{
